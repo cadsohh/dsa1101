@@ -1,0 +1,6 @@
+downpayment <- 0.25 * 1200000
+
+while (saved < downpayment) {
+  saved <- saved + saved * 0.02 + salary * 0.4
+  months <- months + 1 }
+ 
