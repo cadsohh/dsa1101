@@ -1,0 +1,22 @@
+q1
+fev (because fev is the one changing and the one u are measuring against other var)
+
+can use attach(FEV) instead of data$FEV 
+hist(data$FEV, col = 10, freq = FALSE)
+
+qqnorm(data$FEV, col = "red")
+qqline(data$FEV, col = "black")
+
+q2
+n >= 3
+f3 = f2 + f1
+f4 = f3 + f2
+for { .... Fi = Fi-1 + Fi-2} 
+
+Fibo = numeric(45)
+fibo[1:2] = 1
+1:2
+Fibo
+for ( i in 3:45) {
+Fibo[i] = Fibo[i-1] + Fibo[i-2]
+} 
